@@ -26,7 +26,7 @@ public class Login extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
             
-            // Invoca al recurso web Login.jsp
+            // Invoca al recurso web login.jsp
             RequestDispatcher view = request.getRequestDispatcher("login.jsp");
             
             // Reenvia la solicitud o petición del Sevlet al jsp
@@ -39,15 +39,4 @@ public class Login extends HttpServlet {
             throws ServletException, IOException {
         
     }
-
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
-    @Override
-    public String getServletInfo() {
-        return "Short description";
-    }// </editor-fold>
-
 }
